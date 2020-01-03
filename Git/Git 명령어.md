@@ -35,3 +35,10 @@
 
 - `-m <메시지>` : 커밋 메시지
 - `-a` : `git add` 와 동일, tracked -> staging area로 올리기
+
+## git remote
+
+- `--verbose`, `-v` : 설정 확인
+- `add <name> <url>` 원격 저장소 추가
+- `rename <old> <new>` : 원격 저장소 변경
+- `remove <name>` : 원격 저장소 삭제
