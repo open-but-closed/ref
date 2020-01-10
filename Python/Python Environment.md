@@ -23,6 +23,18 @@
 $ conda-env create -n 환경이름 python=3.6
 ```
 
+### `conda create` 환경 생성하기
+
+`conda env create`또는 `conda-env create`와 다르게 `conda create`로도 생성할 수 있음
+기존 명령어에 추가적으로 설정할 수 있는 옵션이 많음
+
+- `--copy` : 패키지를 소프트링크나 하드링크가 아닌 실제 복사(copy)를 해서 생성함
+- `--clone` <환경이름> : <환경이름>을 복제한 환경을 생성함
+
+```bash
+$ conda create --clone 기존환경 -n 신규환경
+```
+
 ### `conda-env list` 환경 조회하기
 
 조회하기
@@ -63,7 +75,8 @@ $ which activate deactivate
 
 ### activate
 
-실제 사용에선 `activate`보다 `source activate`를 권장함
+- Windows에선 `activate`로 수행
+- Mac이나 Linux에선 `source activate`로 수행
 
 ```bash
 $ which python
@@ -83,6 +96,14 @@ $ source activate gcal_env
 
 ```
 
+`conda activate 환경이름` 역시 가능하다
+
+```bash
+$ conda activate gcal_env_clone
+(gcal_env_clone) $
+
+```
+
 ### deactivate
 
 마찬가지임
@@ -93,3 +114,28 @@ $ source activate gcal_env
 $
 
 ```
+
+또는
+
+```bash
+(gcal_env) $ conda deactivate
+
+$
+
+```
+
+
+## (기타) 버전 옵션
+
+- Fuzzy : `numpy=1.11` 1.11.0, 1.11.1, 1.11.2, 1.11.18 etc.
+- Exact : `numpy==1.11` 1.11.0
+- Greater than or equal to : `"numpy>=1.11"` 1.11.0 or higher
+- OR : `"numpy=1.11.1|1.11.3"` 1.11.1, 1.11.3
+- AND : `"numpy>=1.8,<2"` 1.8, 1.9, not 2.0
+
+NOTE: Quotation marks must be used when your specification contains a space or any of these characters: > < | *
+
+
+# 참조
+
+- [CONDA CHEAT SHEET](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
