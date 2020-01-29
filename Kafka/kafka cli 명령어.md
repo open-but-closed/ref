@@ -1,3 +1,7 @@
+---
+title: kafka cli 명령어
+---
+
 # kafka cli 명령어
 
 ## 서버

@@ -1,3 +1,7 @@
+---
+title: MySQL - ROWNUM, ROW_NUMBER()
+---
+
 # MySQL - ROWNUM, ROW_NUMBER()
 
 - MySQL 5.7 이전 버전은 Window함수를 사용할 수 없음. 따라서 오라클에서 쓰는 ROWNUM 내부컬럼이나 ROW_NUMBER()과 같은 분석함수를 사용할 수 없음. (MySQL 8 이후 버전에선 Window함수가 사용이 가능)

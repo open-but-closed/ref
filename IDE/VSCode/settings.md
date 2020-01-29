@@ -1,3 +1,8 @@
+---
+title: VS Code Setting
+---
+
+```
 {
     "editor.minimap.enabled": true,
     "workbench.sideBar.location": "left",
@@ -27,3 +32,4 @@
     "git.autofetch": true
 
 }
+```

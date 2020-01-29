@@ -1,3 +1,7 @@
+---
+title: Vertica - ALTER TABLE
+---
+
 # Vertica - ALTER TABLE
 
 ```sql

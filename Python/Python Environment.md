@@ -1,3 +1,7 @@
+---
+title: Python Environment 설정
+---
+
 # Python Environment 설정
 
 ## 아나콘다의 `conda-env` 이용하여 환경 생성/조회/삭제

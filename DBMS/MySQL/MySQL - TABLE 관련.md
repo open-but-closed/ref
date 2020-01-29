@@ -1,3 +1,7 @@
+---
+title: MySQL -  TABLE 관련 
+---
+
 # MySQL - TABLE 관련 
 
 - MySQL 테이블 생성 관련 자주 쓰는 옵션

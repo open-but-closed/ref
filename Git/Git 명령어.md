@@ -1,3 +1,7 @@
+---
+title: Git 명령어
+---
+
 # Git 명령어
 
 ## git config : 설정

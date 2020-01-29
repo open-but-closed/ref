@@ -1,3 +1,8 @@
+---
+title: MySQL Hints
+---
+
+
 # MySQL Hints
 
 ## 참조링크
