@@ -11,6 +11,9 @@ tmux : terminal multiplexer
 - 세션 생성 : `tmux new -s 세션명`
 - 세션과 윈도우 생성 : `tmux new -s 세션명 -n 윈도우명`
 - 세션 다시 접속 : `tmux a -t 세션명`
+- tmux 종료 : `tmux kill-server`
+- 세션 종료 : `tmux kill-session -t 세션명`
+- 윈도우 종료 : `tmux kill-window -t 윈도우명`
 
 ## Session(세션 내에서)
 
