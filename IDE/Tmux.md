@@ -64,7 +64,6 @@ tmux : terminal multiplexer
 
 - help : `^b` + `?`
 
-
 ## 설정
 
 `~/.tmux/conf`파일 설정 내용
